@@ -1,15 +1,21 @@
 #include <stdio.h>
 
-    int somar (int a, int b) {
-        int resultado= a + b;
-        return resultado ;
+int comprar_poções (){
+int limite_poções =9;
+     return limite_poções;
+    
     
 }
 
-int main (){
-    int soma1= 10;
-    int soma2= 12;
-    int soma = somar ( soma1, soma2);
-    printf ("a soma de %d e %d é %d\n" , soma1, soma2, soma);
+int main() 
+{
+    
+
+    
+    
+    printf("Exercicio 2:\n ");
+    printf("poções comprados : %d\n ", comprar_poções ());
+    
+   
     return 0;
 }
