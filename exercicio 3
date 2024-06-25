@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main ()
+{
+    float altura = 1.73;
+    int idade= 17;
+    char inicial= 'L';
+    double real= 360.50;
+    
+    printf ("altura e: %f\n", altura);
+    printf("a inicial do nome e %c\n", inicial);
+    printf("a idade e %d", idade);
+    printf("o valor e %lf\n", real);
+    return 0;
+}
